@@ -1,4 +1,3 @@
-
 # Instal·lació Percona
 
 #### Descarguem els repositoris del Percona:    
