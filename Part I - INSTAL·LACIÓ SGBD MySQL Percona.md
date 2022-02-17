@@ -1,10 +1,19 @@
+
+# Instal·lació Percona
+
+#### Descarguem els repositoris del Percona:    
+    yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
+    
+#### Instal·lem els repositoris:
+    yum install Percona-Server-server-57
+
 ## 1. Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root sigui patata.
       
-### Primer canvien les polítiques de contrasenya del mysql amb les següents comandes:
+#### Primer canvien les polítiques de contrasenya del mysql amb les següents comandes:
     SET GLOBAL validate_password.policy=LOW;
     SET GLOBAL validate_password.length=6;
 
-### Amb la comanda mysql_secure_installation canviem la contrasenya del root i ens securitza el mysql:
+#### Amb la comanda mysql_secure_installation canviem la contrasenya del root i ens securitza el mysql:
  ![image](https://user-images.githubusercontent.com/61474562/154500390-175c5daf-aef7-41b6-af08-5682138afce3.png)
  ![image](https://user-images.githubusercontent.com/61474562/154500504-3726ef96-e382-4220-80c1-67ba2d96f012.png)
 
