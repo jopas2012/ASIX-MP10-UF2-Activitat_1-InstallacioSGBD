@@ -1,3 +1,14 @@
+# Instal·lació MySQL
+
+#### Descarguem els repositoris del MySQL:    
+    sudo wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+    
+#### Preparem els repositoris del MySQL:     
+    sudo rpm -Uvh mysql80-community-release-el7-3.noarch.rpm
+    
+#### Instal·lem els repositoris:
+    sudo yum install mysql-server
+
 ## 1.	A on es troben físicament els fitxers de dades?
     Les dades es troben en el directori /var/lib/mysql ja que en el fitxer de configuració ens ho indica:
 #### Fitxer Configuració
